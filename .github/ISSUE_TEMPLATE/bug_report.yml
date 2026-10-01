@@ -1,18 +1,18 @@
-name: Bug report / 錯誤回報
-description: Something doesn't work in the latest release. / 最新版有東西無法運作
+name: Bug report
+description: Something doesn't work in the latest release.
 body:
   - type: input
     id: version
     attributes:
-      label: Version / 版本號
-      description: Shown on the Settings page, or in the download file name. / 設定頁或下載檔名上可看到
+      label: Version
+      description: Shown on the Settings page, or in the download file name.
       placeholder: "1.0.0"
     validations:
       required: true
   - type: dropdown
     id: platform
     attributes:
-      label: Platform / 平台
+      label: Platform
       options:
         - Linux x86_64 (tarball)
         - Windows x86_64 (zip)
@@ -23,7 +23,7 @@ body:
   - type: textarea
     id: what
     attributes:
-      label: What happened / 發生的情況
-      description: Steps to reproduce, what you expected, and any error text. / 重現步驟、預期結果與錯誤訊息
+      label: What happened
+      description: Steps to reproduce, what you expected, and any error text.
     validations:
       required: true
