@@ -33,3 +33,5 @@ See [README-install.en.md](README-install.en.md) and the Manual:
 ## License
 
 See [LICENSE](LICENSE).
+
+Notices for third-party components are in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).

@@ -33,3 +33,5 @@ sha256sum -c SHA256SUMS --ignore-missing
 ## 授權
 
 見 [LICENSE](LICENSE)。
+
+第三方元件的授權聲明見 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)。
