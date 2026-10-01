@@ -25,7 +25,7 @@ Signing key: `KakePhooa Releases <license@kakephooa.com>`, fingerprint `ACC6 7AF
 
 ## Install
 
-See [README-install.md](README-install.md) and the Manual:
+See [README-install.en.md](README-install.en.md) and the Manual:
 
 - English: https://kakephooa.com/manual/en/install
 - 繁體中文: https://kakephooa.com/manual/zh-TW/install
