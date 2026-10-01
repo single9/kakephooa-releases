@@ -1,0 +1,162 @@
+KAKEPHOOA END-USER LICENSE AGREEMENT (EULA)
+
+This Agreement is governed by the Traditional Chinese version below, which
+shall control in the event of any discrepancy. By downloading, installing,
+or executing the software accompanying this Agreement (the "Software"),
+you agree to be bound by the following terms.
+
+1. Definitions
+
+"Licensor" means the publisher of the Software. "You" or "Licensee" means
+the individual or entity installing or running the Software. "Single-User
+Edition" means the self-hosted distribution of the Software offered free
+of charge under this Agreement.
+
+2. Grant of License
+
+Licensor grants You a non-exclusive, non-transferable, royalty-free
+license to install and run the Single-User Edition of the Software,
+without restriction as to context of use (personal, household, or
+internal business use are all permitted), without expiration, and
+without any limitation other than as set forth in this Agreement. You
+may install and run the Software only within environments You control,
+and only for use by You and by members of Your household or
+organization.
+
+3. Restrictions on Redistribution
+
+You may not redistribute the Software (whether as a container image or
+as a tarball), in whole or in part, modified or unmodified, to any third
+party, whether or not for consideration. All users must obtain the
+Software solely through the distribution channels designated by Licensor
+(the container registry and the public Releases page maintained by
+Licensor). Licensor disclaims all liability for any damage arising from
+copies obtained through unauthorized redistribution or from versions
+that have been modified by parties other than Licensor.
+
+4. Restrictions on Service Provision
+
+You may not use the Software to provide a hosted, managed, or otherwise
+publicly or commercially available service to third parties, whether or
+not for consideration. Without limiting the foregoing, You may not
+operate a deployment that persons outside Your household or
+organization are able to register for or otherwise use. Rights to
+operate the Software as a service are available separately; enquiries
+may be directed to the address in the Contact clause below.
+
+5. Restrictions on Reverse Engineering
+
+You may not decompile, disassemble, or otherwise reverse engineer the
+Software, except to the extent such restriction is expressly prohibited
+by applicable law, or except for the sole purpose of extracting data
+that You have stored within the Software (including, without
+limitation, by means of the Software's built-in export functionality,
+or by querying a database instance that You operate). This exception
+survives regardless of any other provision of this Agreement.
+
+6. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+7. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR SHALL NOT BE
+LIABLE FOR ANY DAMAGES ARISING OUT OF THE USE OF OR INABILITY TO USE THE
+SOFTWARE. IF LICENSOR IS FOUND LIABLE NOTWITHSTANDING THE FOREGOING,
+LICENSOR'S AGGREGATE LIABILITY SHALL NOT EXCEED THE TOTAL AMOUNT
+ACTUALLY PAID BY YOU TO LICENSOR FOR THE SOFTWARE (WHICH, FOR THE
+SINGLE-USER EDITION, IS NT$0).
+
+8. No Refunds
+
+The Single-User Edition is provided free of charge and is therefore not
+subject to refund.
+
+9. Commitment Upon Discontinuation
+
+In the event Licensor discontinues maintenance or updates of the
+Software, instances already deployed by You shall continue to operate.
+Your data shall remain within the environment You control, and shall
+remain fully exportable via the Software's built-in export
+functionality.
+
+10. Governing Law
+
+This Agreement shall be governed by and construed in accordance with the
+laws of the Republic of China (Taiwan).
+
+11. Contact
+
+Inquiries regarding licensing should be directed to support@kakephooa.com.
+
+================================================================================
+
+KakePhooa 家計簿仔 使用者授權合約（EULA）
+
+本合約以下方台灣正體中文文本為準，如有歧異，以中文版本為準。下載、安裝
+或執行本合約所附之軟體（下稱「本軟體」），即表示您同意受本合約下列條款
+之拘束。
+
+第一條：定義
+
+「發行方」指本軟體之發行人。「您」或「被授權人」指安裝或執行本軟體之
+個人或組織。「單人版本」指依本合約以免費方式提供之自架版軟體。
+
+第二條：授權範圍
+
+發行方授予您非專屬、不可轉讓、免權利金之授權，得安裝並執行本軟體之單人
+版本，不限使用場景（個人、家庭或公司內部使用均屬允許），無到期日，除
+本合約另有規定外不受其他限制。您僅得於您自行管理之環境中安裝並執行本
+軟體，且僅限您本人及您之家庭或組織成員使用。
+
+第三條：轉散布之禁止
+
+您不得將本軟體（無論係 container image 或 tarball 形式），全部或一部、
+經修改或未經修改，轉散布予任何第三人，不論是否收取對價。所有使用者均
+應僅透過發行方指定之管道（發行方維護之 container registry 及公開
+Releases 頁面）取得本軟體。因未經授權之轉散布所取得之複本，或經發行方
+以外之人修改之版本所生之任何損害，發行方概不負責。
+
+第四條：提供服務之禁止
+
+您不得利用本軟體向第三人提供代管、託管或其他公開或商業性之服務，不論
+是否收取對價。在不限縮前段之前提下，您不得架設任何可供您之家庭或組織
+以外之人註冊或使用之部署。以服務形式營運本軟體之權利需另行取得，相關
+洽詢請寄至本合約末條所載之聯絡方式。
+
+第五條：逆向工程之禁止
+
+您不得對本軟體進行反編譯、反組譯或其他逆向工程，但下列情形不在此限：
+(一) 適用法律明文禁止排除該限制者；或 (二) 唯一目的係為取出您已存放於
+本軟體中之資料者（包含但不限於透過本軟體內建之匯出功能，或直接查詢您
+自行維運之資料庫）。前述例外不因本合約其他條款而受影響或失效。
+
+第六條：無擔保聲明
+
+本軟體係以「現況」（AS IS）提供，發行方不為任何明示或默示之擔保，包含
+但不限於適售性及特定目的適用性之默示擔保。
+
+第七條：責任限制
+
+於法律允許之最大範圍內，發行方就因使用或無法使用本軟體所生之任何損害，
+不負賠償責任。倘發行方仍須就此負責，其累計賠償總額不超過您因本軟體實際
+支付予發行方之金額（單人版本為新臺幣零元）。
+
+第八條：不予退款
+
+單人版本係無償提供，不適用退款規定。
+
+第九條：停止維護後之承諾
+
+倘發行方停止對本軟體之維護或更新，您已部署之實例仍得繼續運作；您的資料
+仍保留於您自行管理之環境中，且仍得透過本軟體內建之匯出功能完整匯出。
+
+第十條：準據法
+
+本合約之解釋及適用，以中華民國法律為準據法。
+
+第十一條：聯絡方式
+
+有關授權事宜之詢問，請寄至 support@kakephooa.com。

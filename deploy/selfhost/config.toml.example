@@ -1,0 +1,26 @@
+# KakePhooa configuration for docker-compose.yml. Copy to config.toml in the
+# same directory; compose mounts it read-only. Every key is explained in the
+# Manual:
+#   https://kakephooa.com/manual/en/configuration
+#   https://kakephooa.com/manual/zh-TW/configuration
+
+[database]
+mode = "embedded"                  # run the built-in PostgreSQL 16, stored in the `data` volume; remove to use `url`
+# embedded_data_dir = "data"         # where the built-in database keeps its files (/app/data in the container)
+# url = "postgres://kakephooa:password@host:5432/kakephooa" # external PostgreSQL 16+; not together with `mode`
+
+[server]
+public_url = "http://127.0.0.1:8080" # address this machine is reached at, including the port
+secure_cookies = false               # true only when a reverse proxy in front serves HTTPS
+# update_check_enabled = true        # false stops the daily check for a newer version
+# default_language = "zh-TW"         # zh-TW or en; used when a visitor's browser gives no language
+
+[auth]
+signup_policy = "closed"             # the first User is always accepted; a self-hosted deployment has one User
+
+# [mail] is left out: Mail-less Mode. Add smtp_url (and from) under [mail] to send emails.
+
+# [sso.google]
+# enabled = true                     # offer Google login when both credentials below are set
+# client_id = ""                     # Google OAuth client ID
+# client_secret = ""                 # Google OAuth client secret

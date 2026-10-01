@@ -1,0 +1,47 @@
+# Self-hosted compose: just the app, no reverse proxy, TLS, or domain.
+# Those three are out of support scope (see "Support scope" in the Manual's
+# Installation chapter) — shipping a compose that auto-provisions
+# certificates would contradict that. The Self-hosted Edition most commonly
+# runs on a LAN or tailscale, where TLS isn't needed at all; if you need TLS
+# for external access, put a reverse proxy in front yourself.
+#
+# There's no separate database service: the app manages its own PostgreSQL
+# 16 in Embedded Database Mode (see config.toml.example), stored in the
+# `data` named volume below. For a version that runs PostgreSQL in its own
+# container instead, see "Docker Compose examples" in the Manual:
+#   https://kakephooa.com/manual/en/install
+#   https://kakephooa.com/manual/zh-TW/install
+#
+# Usage: in the unpacked Linux tarball's directory, copy config.toml.example
+# to config.toml, then run `docker compose up -d --build`. The image is built
+# from the `server` binary next to this file with the included Dockerfile.
+# All app settings live in config.toml, mounted as a read-only volume.
+#
+# `name` fixes the project name, so the volume stays `kakephooa_data` when a
+# new version is unpacked into a differently named directory.
+name: kakephooa
+
+services:
+  app:
+    # The bundled binary is x86_64. This makes Docker Desktop on an Apple
+    # silicon Mac build and run the image under emulation; it changes nothing
+    # on an x86_64 host.
+    platform: linux/amd64
+    build: .
+    image: kakephooa:local
+    container_name: kakephooa-app
+    restart: unless-stopped
+    volumes:
+      - ./config.toml:/app/config.toml:ro
+      - data:/app/data
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:8080/healthz || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+volumes:
+  data:
