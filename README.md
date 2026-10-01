@@ -1,7 +1,7 @@
 # KakePhooa Self-hosted Edition / 自架版
 
-Binary releases, install files and the issue tracker for the KakePhooa Self-hosted Edition. The source code is not published here.
-自架版的發行檔、安裝檔案與問題回報。原始碼不公開在這裡。
+Releases, install files and the issue tracker for the KakePhooa Self-hosted Edition.
+自架版的發行檔、安裝檔案與問題回報。
 
 **Support scope / 支援範圍**
 
