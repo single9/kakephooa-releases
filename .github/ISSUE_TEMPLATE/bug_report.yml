@@ -1,4 +1,4 @@
-name: Bug report
+name: Bug report (English)
 description: Something doesn't work in the latest release.
 body:
   - type: input
