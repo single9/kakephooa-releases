@@ -6,7 +6,7 @@
 
 ## 支援範圍
 
-- 支援：最新版，執行環境為 Linux x86_64、Windows x86_64，以及 Docker／Podman（macOS 請使用 Docker Desktop）。
+- 支援：最新版，執行環境為 Linux x86_64、Linux aarch64（ARM64）、Windows x86_64，以及 Docker／Podman（macOS 請使用 Docker Desktop）。
 - 受理：錯誤回報。請使用範本，並填寫版本號。
 - 不支援：其他處理器架構、降版、自行修改的版本、功能建議。
 - 其他問題：support@kakephooa.com

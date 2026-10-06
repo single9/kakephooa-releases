@@ -1,9 +1,11 @@
 # Self-hosted compose: just the app, no reverse proxy, TLS, or domain.
 # Those three are out of support scope (see "Support scope" in the Manual's
 # Installation chapter) — shipping a compose that auto-provisions
-# certificates would contradict that. The Self-hosted Edition most commonly
-# runs on a LAN or tailscale, where TLS isn't needed at all; if you need TLS
-# for external access, put a reverse proxy in front yourself.
+# certificates would contradict that. Over plain http on a LAN, phones can't
+# install the app, record offline, or use Passkeys; the Manual's "Connecting
+# from your phone" chapter has Tailscale and DDNS + Traefik examples:
+#   https://kakephooa.com/manual/en/remote-access
+#   https://kakephooa.com/manual/zh-TW/remote-access
 #
 # There's no separate database service: the app manages its own PostgreSQL
 # 16 in Embedded Database Mode (see config.toml.example), stored in the
@@ -23,9 +25,8 @@ name: kakephooa
 
 services:
   app:
-    # The bundled binary is x86_64. This makes Docker Desktop on an Apple
-    # silicon Mac build and run the image under emulation; it changes nothing
-    # on an x86_64 host.
+    # The architecture of the bundled binary. On a machine of the other
+    # architecture, Docker builds and runs the image under emulation.
     platform: linux/amd64
     build: .
     image: kakephooa:local

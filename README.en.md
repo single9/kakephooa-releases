@@ -6,7 +6,7 @@ This repository provides the releases, install files and issue tracker for the K
 
 ## Support scope
 
-- Supported: the latest release, on Linux x86_64, Windows x86_64, and Docker/Podman (use Docker Desktop on macOS).
+- Supported: the latest release, on Linux x86_64, Linux aarch64 (ARM64), Windows x86_64, and Docker/Podman (use Docker Desktop on macOS).
 - Accepted: bug reports. Please use the issue template and fill in the version.
 - Not supported: other CPU architectures, downgrades, modified builds, feature requests.
 - Other questions: support@kakephooa.com
