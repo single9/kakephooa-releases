@@ -12,10 +12,11 @@ Once the app is running, the same Manual is also at `/manual` on your own server
 ## Quick start
 
 1. Verify the download against `SHA256SUMS` and `SHA256SUMS.asc` (see "Verify the release" in the Manual).
-2. Copy `config.toml.example` to `config.toml` and set `public_url` to the address this machine is reached at.
+2. Copy `config.toml.example` to `config.toml` and set `public_url` to the address this machine is reached at. You can skip this when starting with `kakephooa-tray`: without a `config.toml`, it creates one that accepts connections from this computer only.
 3. Start it:
    - Linux: `./server`
    - Windows: double-click `start.bat` (or run `.\server.exe` in PowerShell)
+   - In the system tray (Windows, and GNOME or XFCE on Linux): double-click `kakephooa-tray` (`kakephooa-tray.exe` on Windows); see "Keep it running in the system tray" in the Manual
    - Docker/Podman: run `docker compose up -d --build` in this directory. The included `Dockerfile` wraps `server` in an image; nothing is compiled.
 4. Open `public_url` in a browser and sign up. The first sign-up becomes your User.
 
