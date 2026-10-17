@@ -14,9 +14,9 @@
 1. 以 `SHA256SUMS` 與 `SHA256SUMS.asc` 驗證下載的檔案（見使用手冊「驗證發行版」）。
 2. 將 `config.toml.example` 複製為 `config.toml`，並把 `public_url` 設為這台機器被連到的網址。以 `kakephooa-tray` 啟動時可略過此步驟，沒有 `config.toml` 時會自動建立一份只接受本機連線的設定。
 3. 啟動：
+   - 最簡單：縮到系統匣常駐（Windows、Linux 的 GNOME 與 XFCE）：雙擊 `kakephooa-tray`（Windows 為 `kakephooa-tray.exe`），見使用手冊「以系統匣常駐」
    - Linux：`./server`
    - Windows：雙擊 `start.bat`（或在 PowerShell 執行 `.\server.exe`）
-   - 縮到系統匣常駐（Windows、Linux 的 GNOME 與 XFCE）：雙擊 `kakephooa-tray`（Windows 為 `kakephooa-tray.exe`），見使用手冊「以系統匣常駐」
    - Docker／Podman：在此目錄執行 `docker compose up -d --build`。附帶的 `Dockerfile` 會將 `server` 包成 image，不需要編譯。
 4. 以瀏覽器開啟 `public_url` 並註冊，第一個註冊的帳號即為使用者帳號。
 
