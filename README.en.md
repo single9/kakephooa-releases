@@ -25,6 +25,8 @@ Signing key: `KakePhooa Releases <license@kakephooa.com>`, fingerprint `ACC6 7AF
 
 ## Install
 
+With Docker/Podman you can use the container image `ghcr.io/single9/kakephooa` (amd64, arm64), which has the same contents as the tarball.
+
 See [README-install.en.md](README-install.en.md) and the Manual:
 
 - English: https://kakephooa.com/manual/en/install

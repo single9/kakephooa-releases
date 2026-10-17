@@ -25,6 +25,8 @@ sha256sum -c SHA256SUMS --ignore-missing
 
 ## 安裝
 
+Docker／Podman 可直接使用 container image `ghcr.io/single9/kakephooa`（amd64、arm64），內容與 tarball 相同。
+
 安裝步驟見 [README-install.md](README-install.md) 與使用手冊：
 
 - 繁體中文：https://kakephooa.com/manual/zh-TW/install
